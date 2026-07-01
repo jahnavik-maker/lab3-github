@@ -1,17 +1,15 @@
-name : lab3 workflow
+name: Lab3 Workflow
+ 
 on:
   push:
     branches:
       - main
-
+ 
 jobs:
   hello-world:
     runs-on: ubuntu-latest
-
+ 
     steps:
-      - name: checkouut repository
-        uses: actions/checkout@v4
-
-      - name: display message  
-        run: echo "github actions executed successfully!"
+      - name: Print Message
+        run: echo "GitHub Actions executed successfully!"
       
