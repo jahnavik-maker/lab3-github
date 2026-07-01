@@ -12,7 +12,6 @@ jobs:
       - name: checkouut repository
         uses: actions/checkout@v4
 
-      - name: display message background: 
-        run: echo "github actions
-executed successfully!"
+      - name: display message  
+        run: echo "github actions executed successfully!"
       
